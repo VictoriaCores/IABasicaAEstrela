@@ -1,29 +1,7 @@
-# Descrición
+# Cambios en IABasicaAEstrela
 
-Emprega este arquivo para describir os cambios do teu proxecto.
+## Escena *AStarPath*
 
-Utiliza o formato en markdown coas marcas básicas que aparcen no seguinte exemplo:
-
-# Título principal
-## Subtítulo
-
-Texto normal con **negriña** e *cursiva*.
-
-- Lista 1
-- Lista 2
-
-[Ligazón](https://exemplo.com)
-
-
-```csharp
-using UnityEngine;
-
-public class OlaMundo : MonoBehaviour
-{
-    void Start()
-    {
-        Debug.Log("Ola, mundo desde C#!");
-    }
-}
-
-```
+- Modifiqué el laberinto que generaba el script de base para hacerlo más pequeño. Ahora es de 20x20.
+- Modifiqué la posición de la Main Camera para poder observar mejor la escena.
+- Añadí una nueva cámara para poder ver el coste de los nodos sin mover la cámara principal.
